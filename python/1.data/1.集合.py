@@ -1,0 +1,9 @@
+#集合里面的元素是惟一的
+#set（）去除集合里重复的元素,并有序排列
+num=[1,1,4,3,5,8,5,3]
+num1=list(set(num))
+print(num1)
+#------不可变集合-----
+num2=frozenset([1,2,3])
+num1.append(23)
+print(num1)
